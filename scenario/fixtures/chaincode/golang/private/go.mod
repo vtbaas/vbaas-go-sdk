@@ -1,4 +1,4 @@
-module github.com/hyperledger/fabric-gateway/scenario/fixtures/chaincode/go/private
+module github.com/vtbaas/vbaas-go-sdk/scenario/fixtures/chaincode/go/private
 
 go 1.17
 

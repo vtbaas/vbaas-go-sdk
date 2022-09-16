@@ -9,7 +9,7 @@ package identity
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric-gateway/pkg/internal/test"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/internal/test"
 	"github.com/stretchr/testify/require"
 )
 
