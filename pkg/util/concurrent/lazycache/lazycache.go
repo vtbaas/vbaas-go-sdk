@@ -11,11 +11,11 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/logging"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/options"
-	"github.com/hyperledger/fabric-sdk-go/pkg/util/concurrent/futurevalue"
-	"github.com/hyperledger/fabric-sdk-go/pkg/util/concurrent/lazyref"
 	"github.com/pkg/errors"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/logging"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/options"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/util/concurrent/futurevalue"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/util/concurrent/lazyref"
 )
 
 var logger = logging.NewLogger("fabsdk/util")

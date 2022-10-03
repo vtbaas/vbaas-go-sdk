@@ -1,3 +1,4 @@
+//go:build pprof
 // +build pprof
 
 /*
@@ -12,8 +13,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/channel/invoke"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/status"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/client/channel/invoke"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/errors/status"
 )
 
 func callQuery(cc *Client, request Request, options ...RequestOption) (Response, error) {

@@ -1,3 +1,4 @@
+//go:build testing
 // +build testing
 
 /*
@@ -12,17 +13,17 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/channel"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config/endpoint"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config/lookup"
-	mockCore "github.com/hyperledger/fabric-sdk-go/pkg/core/mocks"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/mocks"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk/provider/chpvdr"
-	"github.com/hyperledger/fabric-sdk-go/pkg/msp"
-	"github.com/hyperledger/fabric-sdk-go/test/metadata"
 	"github.com/pkg/errors"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/client/channel"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/core"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/core/config"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/core/config/endpoint"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/core/config/lookup"
+	mockCore "github.com/vtbaas/vbaas-go-sdk/pkg/core/mocks"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/fab/mocks"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/fabsdk/provider/chpvdr"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/msp"
+	"github.com/vtbaas/vbaas-go-sdk/test/metadata"
 )
 
 const (

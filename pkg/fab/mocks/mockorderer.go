@@ -13,9 +13,9 @@ import (
 	"sync"
 
 	"github.com/hyperledger/fabric-protos-go/common"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/util/test"
 	"github.com/pkg/errors"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/fab"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/util/test"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 )

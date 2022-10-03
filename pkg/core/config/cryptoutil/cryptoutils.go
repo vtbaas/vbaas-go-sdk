@@ -14,11 +14,11 @@ import (
 	"encoding/pem"
 	"io"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/logging"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
 	"github.com/pkg/errors"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/logging"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/core"
 
-	factory "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkpatch/cryptosuitebridge"
+	factory "github.com/vtbaas/vbaas-go-sdk/internal/github.com/hyperledger/fabric-ca/sdkpatch/cryptosuitebridge"
 )
 
 var logger = logging.NewLogger("fabsdk/core")

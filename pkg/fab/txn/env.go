@@ -17,10 +17,10 @@ import (
 
 	"github.com/hyperledger/fabric-protos-go/common"
 	pb "github.com/hyperledger/fabric-protos-go/peer"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/crypto"
-	contextApi "github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/cryptosuite"
+	"github.com/vtbaas/vbaas-go-sdk/internal/github.com/hyperledger/fabric/common/crypto"
+	contextApi "github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/context"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/fab"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/core/cryptosuite"
 )
 
 // TransactionHeader contains metadata for a transaction created by the SDK.

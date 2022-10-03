@@ -1,3 +1,4 @@
+//go:build testing
 // +build testing
 
 /*
@@ -16,18 +17,18 @@ import (
 
 	"github.com/hyperledger/fabric-protos-go/gossip"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/common/selection/balancer"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/common/selection/options"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/common/selection/sorter/blockheightsorter"
-	contextAPI "github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
-	fab "github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/discovery"
-	discmocks "github.com/hyperledger/fabric-sdk-go/pkg/fab/discovery/mocks"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/mocks"
-	mspmocks "github.com/hyperledger/fabric-sdk-go/pkg/msp/test/mockmsp"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/client/common/selection/balancer"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/client/common/selection/options"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/client/common/selection/sorter/blockheightsorter"
+	contextAPI "github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/context"
+	fab "github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/fab"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/fab/discovery"
+	discmocks "github.com/vtbaas/vbaas-go-sdk/pkg/fab/discovery/mocks"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/fab/mocks"
+	mspmocks "github.com/vtbaas/vbaas-go-sdk/pkg/msp/test/mockmsp"
 )
 
 const (

@@ -12,9 +12,9 @@ import (
 	"io"
 	"time"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/multi"
 	"github.com/pkg/errors"
 	"github.com/spf13/cast"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/errors/multi"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/keepalive"
@@ -22,13 +22,13 @@ import (
 
 	"github.com/hyperledger/fabric-protos-go/common"
 	ab "github.com/hyperledger/fabric-protos-go/orderer"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/common/verifier"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/status"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/logging"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config/comm"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config/endpoint"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/client/common/verifier"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/errors/status"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/logging"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/fab"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/context"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/core/config/comm"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/core/config/endpoint"
 )
 
 var logger = logging.NewLogger("fabsdk/fab")

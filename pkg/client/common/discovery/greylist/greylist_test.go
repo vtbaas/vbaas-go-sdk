@@ -12,10 +12,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/status"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/mocks"
 	"github.com/stretchr/testify/assert"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/errors/status"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/fab"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/fab/mocks"
 )
 
 func TestGreylistFilter(t *testing.T) {

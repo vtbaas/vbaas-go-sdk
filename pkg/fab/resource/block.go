@@ -13,12 +13,12 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/hyperledger/fabric-protos-go/common"
 	ab "github.com/hyperledger/fabric-protos-go/orderer"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/retry"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	contextImpl "github.com/hyperledger/fabric-sdk-go/pkg/context"
-	ccomm "github.com/hyperledger/fabric-sdk-go/pkg/core/config/comm"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/txn"
 	"github.com/pkg/errors"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/errors/retry"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/fab"
+	contextImpl "github.com/vtbaas/vbaas-go-sdk/pkg/context"
+	ccomm "github.com/vtbaas/vbaas-go-sdk/pkg/core/config/comm"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/fab/txn"
 )
 
 // block retrieves the block at the given position

@@ -19,17 +19,17 @@ import (
 	reqContext "context"
 	"time"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/channel/invoke"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/common/discovery/greylist"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/common/filter"
-	selectopts "github.com/hyperledger/fabric-sdk-go/pkg/client/common/selection/options"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/retry"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/status"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	contextImpl "github.com/hyperledger/fabric-sdk-go/pkg/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk/metrics"
 	"github.com/pkg/errors"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/client/channel/invoke"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/client/common/discovery/greylist"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/client/common/filter"
+	selectopts "github.com/vtbaas/vbaas-go-sdk/pkg/client/common/selection/options"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/errors/retry"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/errors/status"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/context"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/fab"
+	contextImpl "github.com/vtbaas/vbaas-go-sdk/pkg/context"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/fabsdk/metrics"
 )
 
 // Client enables access to a channel on a Fabric network.

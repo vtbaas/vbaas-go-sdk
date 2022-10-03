@@ -14,10 +14,10 @@ import (
 	"strings"
 
 	"github.com/golang/mock/gomock"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/test/mockcore"
 	"github.com/stretchr/testify/assert"
+	"github.com/vtbaas/vbaas-go-sdk/internal/github.com/hyperledger/fabric/bccsp"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/core"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/test/mockcore"
 )
 
 const (

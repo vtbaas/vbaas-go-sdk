@@ -9,10 +9,10 @@ package endpoint
 import (
 	"github.com/pkg/errors"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/common/discovery"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/logging"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/client/common/discovery"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/logging"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/context"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/fab"
 )
 
 var logger = logging.NewLogger("fabsdk/fab")

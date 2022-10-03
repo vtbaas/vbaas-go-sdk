@@ -7,13 +7,13 @@ SPDX-License-Identifier: Apache-2.0
 package dynamicdiscovery
 
 import (
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/multi"
-	coptions "github.com/hyperledger/fabric-sdk-go/pkg/common/options"
-	contextAPI "github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	reqContext "github.com/hyperledger/fabric-sdk-go/pkg/context"
-	fabdiscovery "github.com/hyperledger/fabric-sdk-go/pkg/fab/discovery"
 	"github.com/pkg/errors"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/errors/multi"
+	coptions "github.com/vtbaas/vbaas-go-sdk/pkg/common/options"
+	contextAPI "github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/context"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/fab"
+	reqContext "github.com/vtbaas/vbaas-go-sdk/pkg/context"
+	fabdiscovery "github.com/vtbaas/vbaas-go-sdk/pkg/fab/discovery"
 )
 
 // LocalService implements a dynamic Discovery Service that queries

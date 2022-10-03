@@ -8,9 +8,9 @@ package channel
 import (
 	"fmt"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/channel/invoke"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/mocks"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/client/channel/invoke"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/context"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/fab/mocks"
 )
 
 func Example() {

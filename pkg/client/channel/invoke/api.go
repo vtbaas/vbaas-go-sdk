@@ -12,10 +12,10 @@ import (
 	"time"
 
 	pb "github.com/hyperledger/fabric-protos-go/peer"
-	selectopts "github.com/hyperledger/fabric-sdk-go/pkg/client/common/selection/options"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/retry"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
+	selectopts "github.com/vtbaas/vbaas-go-sdk/pkg/client/common/selection/options"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/errors/retry"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/core"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/fab"
 )
 
 // CCFilter returns true if the given chaincode should be included

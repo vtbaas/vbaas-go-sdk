@@ -10,10 +10,10 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/logging/api"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/logging/modlog"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/logging/testdata"
 	"github.com/stretchr/testify/assert"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/core/logging/api"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/core/logging/modlog"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/core/logging/testdata"
 )
 
 var moduleName = "module-xyz"

@@ -24,19 +24,19 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/core"
 
 	cfsslapi "github.com/cloudflare/cfssl/api"
 	"github.com/cloudflare/cfssl/csr"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/lib/client/credential"
-	x509cred "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/lib/client/credential/x509"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/lib/streamer"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/lib/tls"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkinternal/pkg/api"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkinternal/pkg/util"
-	log "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkpatch/logbridge"
 	"github.com/mitchellh/mapstructure"
 	"github.com/pkg/errors"
+	"github.com/vtbaas/vbaas-go-sdk/internal/github.com/hyperledger/fabric-ca/lib/client/credential"
+	x509cred "github.com/vtbaas/vbaas-go-sdk/internal/github.com/hyperledger/fabric-ca/lib/client/credential/x509"
+	"github.com/vtbaas/vbaas-go-sdk/internal/github.com/hyperledger/fabric-ca/lib/streamer"
+	"github.com/vtbaas/vbaas-go-sdk/internal/github.com/hyperledger/fabric-ca/lib/tls"
+	"github.com/vtbaas/vbaas-go-sdk/internal/github.com/hyperledger/fabric-ca/sdkinternal/pkg/api"
+	"github.com/vtbaas/vbaas-go-sdk/internal/github.com/hyperledger/fabric-ca/sdkinternal/pkg/util"
+	log "github.com/vtbaas/vbaas-go-sdk/internal/github.com/hyperledger/fabric-ca/sdkpatch/logbridge"
 )
 
 // Client is the fabric-ca client object

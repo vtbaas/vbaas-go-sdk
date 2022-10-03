@@ -10,12 +10,12 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/logging"
-	contextApi "github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/msp"
-	"github.com/hyperledger/fabric-sdk-go/pkg/msp/api"
 	"github.com/pkg/errors"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/logging"
+	contextApi "github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/context"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/core"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/msp"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/msp/api"
 )
 
 var logger = logging.NewLogger("fabsdk/msp")

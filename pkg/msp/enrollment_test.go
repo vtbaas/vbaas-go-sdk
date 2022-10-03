@@ -13,17 +13,17 @@ import (
 	"testing"
 
 	"github.com/golang/mock/gomock"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkinternal/pkg/util"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	providersFab "github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/msp"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/cryptosuite"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/cryptosuite/bccsp/sw"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/msp/api"
-	apimocks "github.com/hyperledger/fabric-sdk-go/pkg/msp/test/mockmspapi"
-	"github.com/hyperledger/fabric-sdk-go/test/metadata"
+	"github.com/vtbaas/vbaas-go-sdk/internal/github.com/hyperledger/fabric-ca/sdkinternal/pkg/util"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/core"
+	providersFab "github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/fab"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/msp"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/core/config"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/core/cryptosuite"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/core/cryptosuite/bccsp/sw"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/fab"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/msp/api"
+	apimocks "github.com/vtbaas/vbaas-go-sdk/pkg/msp/test/mockmspapi"
+	"github.com/vtbaas/vbaas-go-sdk/test/metadata"
 )
 
 var (

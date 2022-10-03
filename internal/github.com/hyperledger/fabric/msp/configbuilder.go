@@ -18,8 +18,8 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	"github.com/hyperledger/fabric-protos-go/msp"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
 	"github.com/pkg/errors"
+	"github.com/vtbaas/vbaas-go-sdk/internal/github.com/hyperledger/fabric/bccsp"
 	"gopkg.in/yaml.v2"
 )
 

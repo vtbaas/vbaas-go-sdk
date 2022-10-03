@@ -13,8 +13,8 @@ package prometheus
 import (
 	kitmetrics "github.com/go-kit/kit/metrics"
 	"github.com/go-kit/kit/metrics/prometheus"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/metrics"
 	prom "github.com/prometheus/client_golang/prometheus"
+	"github.com/vtbaas/vbaas-go-sdk/internal/github.com/hyperledger/fabric/common/metrics"
 )
 
 type Provider struct{}

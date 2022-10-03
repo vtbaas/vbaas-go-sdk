@@ -1,3 +1,4 @@
+//go:build testing
 // +build testing
 
 /*
@@ -12,13 +13,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/discovery"
-	contextAPI "github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
-	pfab "github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	discmocks "github.com/hyperledger/fabric-sdk-go/pkg/fab/discovery/mocks"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/mocks"
-	mspmocks "github.com/hyperledger/fabric-sdk-go/pkg/msp/test/mockmsp"
 	"github.com/stretchr/testify/assert"
+	contextAPI "github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/context"
+	pfab "github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/fab"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/fab/discovery"
+	discmocks "github.com/vtbaas/vbaas-go-sdk/pkg/fab/discovery/mocks"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/fab/mocks"
+	mspmocks "github.com/vtbaas/vbaas-go-sdk/pkg/msp/test/mockmsp"
 )
 
 const (

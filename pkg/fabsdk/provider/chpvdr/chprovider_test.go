@@ -1,3 +1,4 @@
+//go:build testing
 // +build testing
 
 /*
@@ -13,22 +14,22 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/common/discovery/dynamicdiscovery"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/common/discovery/staticdiscovery"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/common/selection/dynamicselection"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/common/selection/fabricselection"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/options"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/msp"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/chconfig"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/discovery"
-	discmocks "github.com/hyperledger/fabric-sdk-go/pkg/fab/discovery/mocks"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/mocks"
-	mspmocks "github.com/hyperledger/fabric-sdk-go/pkg/msp/test/mockmsp"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/client/common/discovery/dynamicdiscovery"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/client/common/discovery/staticdiscovery"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/client/common/selection/dynamicselection"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/client/common/selection/fabricselection"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/options"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/context"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/fab"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/msp"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/fab/chconfig"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/fab/discovery"
+	discmocks "github.com/vtbaas/vbaas-go-sdk/pkg/fab/discovery/mocks"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/fab/mocks"
+	mspmocks "github.com/vtbaas/vbaas-go-sdk/pkg/msp/test/mockmsp"
 )
 
 type mockClientContext struct {

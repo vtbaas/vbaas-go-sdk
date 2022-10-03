@@ -9,9 +9,9 @@ package cfg
 import (
 	"time"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config/lookup"
 	"github.com/pkg/errors"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/core"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/core/config/lookup"
 )
 
 // MetricsConfig contains operations system and metrics configuration

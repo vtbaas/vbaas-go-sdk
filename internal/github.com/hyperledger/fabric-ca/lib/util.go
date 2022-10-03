@@ -17,8 +17,8 @@ import (
 	"encoding/pem"
 	"net/http"
 
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkinternal/pkg/util"
 	"github.com/pkg/errors"
+	"github.com/vtbaas/vbaas-go-sdk/internal/github.com/hyperledger/fabric-ca/sdkinternal/pkg/util"
 )
 
 var clientAuthTypes = map[string]tls.ClientAuthType{

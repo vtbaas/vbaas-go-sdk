@@ -15,20 +15,20 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/multi"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/retry"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/status"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/logging"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	commtls "github.com/hyperledger/fabric-sdk-go/pkg/core/config/comm/tls"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config/cryptoutil"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config/endpoint"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config/lookup"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/cryptosuite"
-	"github.com/hyperledger/fabric-sdk-go/pkg/util/pathvar"
 	"github.com/mitchellh/mapstructure"
 	"github.com/pkg/errors"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/errors/multi"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/errors/retry"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/errors/status"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/logging"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/core"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/fab"
+	commtls "github.com/vtbaas/vbaas-go-sdk/pkg/core/config/comm/tls"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/core/config/cryptoutil"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/core/config/endpoint"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/core/config/lookup"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/core/cryptosuite"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/util/pathvar"
 	grpcCodes "google.golang.org/grpc/codes"
 )
 
@@ -1845,7 +1845,7 @@ func detectDeprecatedNetworkConfig(endpointConfig *EndpointConfig) {
 	for _, v := range endpointConfig.networkConfig.Channels {
 		if len(v.Orderers) > 0 {
 			logger.Warn("Getting orderers from endpoint config channels.orderer is deprecated, use entity matchers to override orderer configuration")
-			logger.Warn("visit https://github.com/hyperledger/fabric-sdk-go/blob/master/test/fixtures/config/overrides/local_entity_matchers.yaml for samples")
+			logger.Warn("visit https://github.com/vtbaas/vbaas-go-sdk/blob/master/test/fixtures/config/overrides/local_entity_matchers.yaml for samples")
 			break
 		}
 	}

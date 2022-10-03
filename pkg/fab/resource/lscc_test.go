@@ -9,14 +9,14 @@ package resource
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	contextImpl "github.com/hyperledger/fabric-sdk-go/pkg/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/txn"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/fab"
+	contextImpl "github.com/vtbaas/vbaas-go-sdk/pkg/context"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/fab/txn"
 
 	"time"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/mocks"
 	"github.com/stretchr/testify/assert"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/fab/mocks"
 )
 
 func TestCreateChaincodeInstallProposal(t *testing.T) {

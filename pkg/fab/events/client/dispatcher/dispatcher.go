@@ -10,14 +10,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/logging"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/options"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/events/api"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/events/client/peerresolver"
-	esdispatcher "github.com/hyperledger/fabric-sdk-go/pkg/fab/events/service/dispatcher"
 	"github.com/pkg/errors"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/logging"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/options"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/context"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/fab"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/fab/events/api"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/fab/events/client/peerresolver"
+	esdispatcher "github.com/vtbaas/vbaas-go-sdk/pkg/fab/events/service/dispatcher"
 )
 
 var logger = logging.NewLogger("fabsdk/fab")

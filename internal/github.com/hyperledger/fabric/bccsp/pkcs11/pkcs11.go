@@ -22,11 +22,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkpatch/cachebridge"
-	sdkp11 "github.com/hyperledger/fabric-sdk-go/pkg/core/cryptosuite/common/pkcs11"
+	"github.com/vtbaas/vbaas-go-sdk/internal/github.com/hyperledger/fabric/sdkpatch/cachebridge"
+	sdkp11 "github.com/vtbaas/vbaas-go-sdk/pkg/core/cryptosuite/common/pkcs11"
 
-	logging "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkpatch/logbridge"
 	"github.com/miekg/pkcs11"
+	logging "github.com/vtbaas/vbaas-go-sdk/internal/github.com/hyperledger/fabric/sdkpatch/logbridge"
 )
 
 var regex = regexp.MustCompile(".*0xB.:\\sCKR.+")

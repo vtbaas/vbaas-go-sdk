@@ -22,8 +22,8 @@ import (
 	"crypto/x509"
 
 	"github.com/golang/mock/gomock"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/test/mockfab"
 	"github.com/stretchr/testify/assert"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/test/mockfab"
 )
 
 func TestTLSConfigErrorAddingCertificate(t *testing.T) {

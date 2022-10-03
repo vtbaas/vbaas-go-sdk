@@ -10,8 +10,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hyperledger/fabric-sdk-go/test/metadata"
 	"github.com/stretchr/testify/assert"
+	"github.com/vtbaas/vbaas-go-sdk/test/metadata"
 )
 
 func TestSubstCryptoConfigMiddle(t *testing.T) {

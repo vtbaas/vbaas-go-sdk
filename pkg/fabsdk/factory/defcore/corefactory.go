@@ -7,16 +7,16 @@ SPDX-License-Identifier: Apache-2.0
 package defcore
 
 import (
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/logging"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/logging/api"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/logging"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/core"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/fab"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/core/logging/api"
 
-	cryptosuiteimpl "github.com/hyperledger/fabric-sdk-go/pkg/core/cryptosuite/bccsp/sw"
-	signingMgr "github.com/hyperledger/fabric-sdk-go/pkg/fab/signingmgr"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk/provider/fabpvdr"
+	cryptosuiteimpl "github.com/vtbaas/vbaas-go-sdk/pkg/core/cryptosuite/bccsp/sw"
+	signingMgr "github.com/vtbaas/vbaas-go-sdk/pkg/fab/signingmgr"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/fabsdk/provider/fabpvdr"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/logging/modlog"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/core/logging/modlog"
 )
 
 var logger = logging.NewLogger("fabsdk")

@@ -11,14 +11,14 @@ import (
 
 	"encoding/json"
 
-	calib "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/lib"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/lib/client/credential"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/lib/client/credential/x509"
-	caapi "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkinternal/pkg/api"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/msp"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config/endpoint"
-	"github.com/hyperledger/fabric-sdk-go/pkg/msp/api"
+	calib "github.com/vtbaas/vbaas-go-sdk/internal/github.com/hyperledger/fabric-ca/lib"
+	"github.com/vtbaas/vbaas-go-sdk/internal/github.com/hyperledger/fabric-ca/lib/client/credential"
+	"github.com/vtbaas/vbaas-go-sdk/internal/github.com/hyperledger/fabric-ca/lib/client/credential/x509"
+	caapi "github.com/vtbaas/vbaas-go-sdk/internal/github.com/hyperledger/fabric-ca/sdkinternal/pkg/api"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/core"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/msp"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/core/config/endpoint"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/msp/api"
 )
 
 // fabricCAAdapter translates between SDK lingo and native Fabric CA API

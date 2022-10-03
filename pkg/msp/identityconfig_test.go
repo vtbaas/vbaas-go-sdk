@@ -14,16 +14,16 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	fabImpl "github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config/endpoint"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/mocks"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab"
-	"github.com/hyperledger/fabric-sdk-go/test/metadata"
 	"github.com/pkg/errors"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/core"
+	fabImpl "github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/fab"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/core/config"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/core/config/endpoint"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/core/mocks"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/fab"
+	"github.com/vtbaas/vbaas-go-sdk/test/metadata"
 )
 
 const (

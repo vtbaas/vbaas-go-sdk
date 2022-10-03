@@ -9,13 +9,13 @@ package chpvdr
 import (
 	reqContext "context"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/logging"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/options"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	channelImpl "github.com/hyperledger/fabric-sdk-go/pkg/fab/channel"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/chconfig"
-	"github.com/hyperledger/fabric-sdk-go/pkg/util/concurrent/lazycache"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/logging"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/options"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/context"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/fab"
+	channelImpl "github.com/vtbaas/vbaas-go-sdk/pkg/fab/channel"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/fab/chconfig"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/util/concurrent/lazycache"
 )
 
 var logger = logging.NewLogger("fabsdk")

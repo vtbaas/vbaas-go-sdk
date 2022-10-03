@@ -13,16 +13,16 @@ import (
 	"reflect"
 
 	"github.com/golang/mock/gomock"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/msp"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/test/mockmsp"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config"
-	cryptosuiteImpl "github.com/hyperledger/fabric-sdk-go/pkg/core/cryptosuite"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/mocks"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk/factory/defcore"
-	mspimpl "github.com/hyperledger/fabric-sdk-go/pkg/msp"
-	"github.com/hyperledger/fabric-sdk-go/test/metadata"
 	"github.com/stretchr/testify/assert"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/msp"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/test/mockmsp"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/core/config"
+	cryptosuiteImpl "github.com/vtbaas/vbaas-go-sdk/pkg/core/cryptosuite"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/fab"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/fab/mocks"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/fabsdk/factory/defcore"
+	mspimpl "github.com/vtbaas/vbaas-go-sdk/pkg/msp"
+	"github.com/vtbaas/vbaas-go-sdk/test/metadata"
 )
 
 func TestCreateUserStore(t *testing.T) {

@@ -21,16 +21,16 @@ import (
 
 	kitstatsd "github.com/go-kit/kit/metrics/statsd"
 	"github.com/hyperledger/fabric-lib-go/healthz"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/metrics"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/metrics/disabled"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/metrics/prometheus"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/metrics/statsd"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/metrics/statsd/goruntime"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/core/middleware"
-	flogging "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkpatch/logbridge"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkpatch/logbridge/httpadmin"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
+	"github.com/vtbaas/vbaas-go-sdk/internal/github.com/hyperledger/fabric/common/metrics"
+	"github.com/vtbaas/vbaas-go-sdk/internal/github.com/hyperledger/fabric/common/metrics/disabled"
+	"github.com/vtbaas/vbaas-go-sdk/internal/github.com/hyperledger/fabric/common/metrics/prometheus"
+	"github.com/vtbaas/vbaas-go-sdk/internal/github.com/hyperledger/fabric/common/metrics/statsd"
+	"github.com/vtbaas/vbaas-go-sdk/internal/github.com/hyperledger/fabric/common/metrics/statsd/goruntime"
+	"github.com/vtbaas/vbaas-go-sdk/internal/github.com/hyperledger/fabric/common/util"
+	"github.com/vtbaas/vbaas-go-sdk/internal/github.com/hyperledger/fabric/core/middleware"
+	flogging "github.com/vtbaas/vbaas-go-sdk/internal/github.com/hyperledger/fabric/sdkpatch/logbridge"
+	"github.com/vtbaas/vbaas-go-sdk/internal/github.com/hyperledger/fabric/sdkpatch/logbridge/httpadmin"
 )
 
 //go:generate counterfeiter -o fakes/logger.go -fake-name Logger . Logger

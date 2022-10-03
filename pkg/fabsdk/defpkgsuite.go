@@ -7,12 +7,12 @@ SPDX-License-Identifier: Apache-2.0
 package fabsdk
 
 import (
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/logging/api"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/logging/modlog"
-	sdkApi "github.com/hyperledger/fabric-sdk-go/pkg/fabsdk/api"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk/factory/defcore"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk/factory/defmsp"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk/factory/defsvc"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/core/logging/api"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/core/logging/modlog"
+	sdkApi "github.com/vtbaas/vbaas-go-sdk/pkg/fabsdk/api"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/fabsdk/factory/defcore"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/fabsdk/factory/defmsp"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/fabsdk/factory/defsvc"
 )
 
 type defPkgSuite struct{}

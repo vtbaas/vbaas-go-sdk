@@ -9,10 +9,10 @@ package deliverclient
 import (
 	"time"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/options"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/events/api"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/events/deliverclient/seek"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/options"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/fab"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/fab/events/api"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/fab/events/deliverclient/seek"
 )
 
 type params struct {

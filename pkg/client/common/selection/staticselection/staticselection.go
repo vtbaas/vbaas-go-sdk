@@ -7,10 +7,10 @@ SPDX-License-Identifier: Apache-2.0
 package staticselection
 
 import (
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/common/selection/options"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/logging"
-	copts "github.com/hyperledger/fabric-sdk-go/pkg/common/options"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/client/common/selection/options"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/logging"
+	copts "github.com/vtbaas/vbaas-go-sdk/pkg/common/options"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/fab"
 )
 
 const loggerModule = "fabsdk/client"

@@ -13,7 +13,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/hyperledger/fabric-sdk-go/test/metadata"
+	"github.com/vtbaas/vbaas-go-sdk/test/metadata"
 )
 
 func getConfigPath() string {

@@ -10,15 +10,15 @@ import (
 	cb "github.com/hyperledger/fabric-protos-go/common"
 	ab "github.com/hyperledger/fabric-protos-go/orderer"
 	pb "github.com/hyperledger/fabric-protos-go/peer"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/logging"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/options"
-	fabcontext "github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/events/api"
-	clientdisp "github.com/hyperledger/fabric-sdk-go/pkg/fab/events/client/dispatcher"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/events/deliverclient/connection"
-	esdispatcher "github.com/hyperledger/fabric-sdk-go/pkg/fab/events/service/dispatcher"
 	"github.com/pkg/errors"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/logging"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/options"
+	fabcontext "github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/context"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/fab"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/fab/events/api"
+	clientdisp "github.com/vtbaas/vbaas-go-sdk/pkg/fab/events/client/dispatcher"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/fab/events/deliverclient/connection"
+	esdispatcher "github.com/vtbaas/vbaas-go-sdk/pkg/fab/events/service/dispatcher"
 )
 
 var logger = logging.NewLogger("fabsdk/fab")

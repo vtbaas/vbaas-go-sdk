@@ -7,17 +7,17 @@ SPDX-License-Identifier: Apache-2.0
 package chpvdr
 
 import (
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/common/discovery/dynamicdiscovery"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/common/discovery/staticdiscovery"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/common/selection/dynamicselection"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/common/selection/fabricselection"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/options"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/channel/membership"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/chconfig"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/events/deliverclient"
-	"github.com/hyperledger/fabric-sdk-go/pkg/util/concurrent/lazycache"
 	"github.com/pkg/errors"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/client/common/discovery/dynamicdiscovery"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/client/common/discovery/staticdiscovery"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/client/common/selection/dynamicselection"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/client/common/selection/fabricselection"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/options"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/providers/fab"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/fab/channel/membership"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/fab/chconfig"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/fab/events/deliverclient"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/util/concurrent/lazycache"
 )
 
 type cache interface {

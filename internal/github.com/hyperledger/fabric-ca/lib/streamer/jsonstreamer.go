@@ -33,8 +33,8 @@ import (
 	"strings"
 
 	"github.com/cloudflare/cfssl/api"
-	log "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkpatch/logbridge"
 	"github.com/pkg/errors"
+	log "github.com/vtbaas/vbaas-go-sdk/internal/github.com/hyperledger/fabric-ca/sdkpatch/logbridge"
 )
 
 // SearchElement defines the JSON arrays for which to search

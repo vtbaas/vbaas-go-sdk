@@ -1,3 +1,4 @@
+//go:build testing
 // +build testing
 
 /*
@@ -12,11 +13,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/logging"
-	configImpl "github.com/hyperledger/fabric-sdk-go/pkg/core/config"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/logging/api"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/logging/modlog"
-	"github.com/hyperledger/fabric-sdk-go/test/metadata"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/common/logging"
+	configImpl "github.com/vtbaas/vbaas-go-sdk/pkg/core/config"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/core/logging/api"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/core/logging/modlog"
+	"github.com/vtbaas/vbaas-go-sdk/test/metadata"
 )
 
 func TestDefLoggerFactory(t *testing.T) {

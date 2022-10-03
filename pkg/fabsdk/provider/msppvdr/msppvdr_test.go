@@ -10,14 +10,14 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/cryptosuite"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk/factory/defcore"
-	"github.com/hyperledger/fabric-sdk-go/pkg/msp"
-	"github.com/hyperledger/fabric-sdk-go/pkg/msp/test/mockmsp"
-	"github.com/hyperledger/fabric-sdk-go/test/metadata"
 	"github.com/stretchr/testify/assert"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/core/config"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/core/cryptosuite"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/fab"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/fabsdk/factory/defcore"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/msp"
+	"github.com/vtbaas/vbaas-go-sdk/pkg/msp/test/mockmsp"
+	"github.com/vtbaas/vbaas-go-sdk/test/metadata"
 )
 
 func TestCreateMSPProvider(t *testing.T) {
