@@ -1,6 +1,6 @@
 module github.com/vtbaas/vbaas-go-sdk
 
-go 1.17
+go 1.14
 
 require (
 	github.com/Knetic/govaluate v3.0.0+incompatible
